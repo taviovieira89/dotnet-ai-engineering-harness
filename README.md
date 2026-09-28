@@ -1,5 +1,11 @@
 # AI Engineering Architecture Starter Kit
 
+## Implementation Agent
+
+The reusable Implementation Agent lives at `agents/implementation/AGENT.md`.
+
+It executes approved SDD/implementation plans through the bounded lifecycle `READ -> PLAN -> IMPLEMENT -> VALIDATE -> REPORT`, loads only relevant skills, reports real validation evidence, and hands completed work to the independent Tech Lead Agent. It never self-approves, invents requirements, or performs privileged actions without approval.
+
 ## Purpose
 
 This kit provides a project-independent operating model for AI-assisted software delivery. It combines clear requirements, risk-proportional planning, controlled tool access, automated validation, independent review, human escalation, and measurable feedback.
